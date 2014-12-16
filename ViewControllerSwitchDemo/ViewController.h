@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ModalViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<ModalViewControllerDelegate,UIViewControllerTransitioningDelegate>
 
 
 @end

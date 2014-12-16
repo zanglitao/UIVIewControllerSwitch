@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4449E5811A4004F30019BD92 /* ModalMoveTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4449E5801A4004F30019BD92 /* ModalMoveTransitionAnimation.m */; };
 		44B534651A3D6C060044F787 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B534641A3D6C060044F787 /* main.m */; };
 		44B534681A3D6C060044F787 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B534671A3D6C060044F787 /* AppDelegate.m */; };
 		44B5346B1A3D6C060044F787 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B5346A1A3D6C060044F787 /* ViewController.m */; };
@@ -14,6 +15,13 @@
 		44B534701A3D6C060044F787 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44B5346F1A3D6C060044F787 /* Images.xcassets */; };
 		44B534731A3D6C060044F787 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44B534711A3D6C060044F787 /* LaunchScreen.xib */; };
 		44B5347F1A3D6C060044F787 /* ViewControllerSwitchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B5347E1A3D6C060044F787 /* ViewControllerSwitchDemoTests.m */; };
+		44B539C21A3E75D80044F787 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B539C11A3E75D80044F787 /* ModalViewController.m */; };
+		44B539C51A3E7D450044F787 /* ModalTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B539C41A3E7D450044F787 /* ModalTransitionAnimation.m */; };
+		44B539C81A3E872C0044F787 /* ModalInterActiveTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B539C71A3E872C0044F787 /* ModalInterActiveTransitionAnimation.m */; };
+		44B539CC1A3E9F990044F787 /* NavigationTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B539CB1A3E9F990044F787 /* NavigationTransitionAnimation.m */; };
+		44B539CF1A3EA4140044F787 /* NavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B539CE1A3EA4140044F787 /* NavigationControllerDelegate.m */; };
+		44B539D61A3EACE90044F787 /* TabbarTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B539D51A3EACE90044F787 /* TabbarTransitionAnimation.m */; };
+		44B539D91A3EAD3D0044F787 /* TabbarControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B539D81A3EAD3D0044F787 /* TabbarControllerDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4449E57F1A4004F30019BD92 /* ModalMoveTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalMoveTransitionAnimation.h; sourceTree = "<group>"; };
+		4449E5801A4004F30019BD92 /* ModalMoveTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalMoveTransitionAnimation.m; sourceTree = "<group>"; };
 		44B5345F1A3D6C060044F787 /* ViewControllerSwitchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewControllerSwitchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B534631A3D6C060044F787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44B534641A3D6C060044F787 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +50,20 @@
 		44B534781A3D6C060044F787 /* ViewControllerSwitchDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewControllerSwitchDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B5347D1A3D6C060044F787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44B5347E1A3D6C060044F787 /* ViewControllerSwitchDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerSwitchDemoTests.m; sourceTree = "<group>"; };
+		44B539C01A3E75D80044F787 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		44B539C11A3E75D80044F787 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		44B539C31A3E7D450044F787 /* ModalTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalTransitionAnimation.h; sourceTree = "<group>"; };
+		44B539C41A3E7D450044F787 /* ModalTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalTransitionAnimation.m; sourceTree = "<group>"; };
+		44B539C61A3E872C0044F787 /* ModalInterActiveTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalInterActiveTransitionAnimation.h; sourceTree = "<group>"; };
+		44B539C71A3E872C0044F787 /* ModalInterActiveTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalInterActiveTransitionAnimation.m; sourceTree = "<group>"; };
+		44B539CA1A3E9F990044F787 /* NavigationTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationTransitionAnimation.h; sourceTree = "<group>"; };
+		44B539CB1A3E9F990044F787 /* NavigationTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationTransitionAnimation.m; sourceTree = "<group>"; };
+		44B539CD1A3EA4140044F787 /* NavigationControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationControllerDelegate.h; sourceTree = "<group>"; };
+		44B539CE1A3EA4140044F787 /* NavigationControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationControllerDelegate.m; sourceTree = "<group>"; };
+		44B539D41A3EACE90044F787 /* TabbarTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarTransitionAnimation.h; sourceTree = "<group>"; };
+		44B539D51A3EACE90044F787 /* TabbarTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarTransitionAnimation.m; sourceTree = "<group>"; };
+		44B539D71A3EAD3D0044F787 /* TabbarControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarControllerDelegate.h; sourceTree = "<group>"; };
+		44B539D81A3EAD3D0044F787 /* TabbarControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarControllerDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +105,14 @@
 		44B534611A3D6C060044F787 /* ViewControllerSwitchDemo */ = {
 			isa = PBXGroup;
 			children = (
+				44B539D31A3EACAE0044F787 /* tabbar */,
+				44B539C91A3E9EF60044F787 /* navigation */,
+				44B539BF1A3E74BF0044F787 /* modal */,
 				44B534661A3D6C060044F787 /* AppDelegate.h */,
 				44B534671A3D6C060044F787 /* AppDelegate.m */,
-				44B534691A3D6C060044F787 /* ViewController.h */,
-				44B5346A1A3D6C060044F787 /* ViewController.m */,
 				44B5346C1A3D6C060044F787 /* Main.storyboard */,
-				44B5346F1A3D6C060044F787 /* Images.xcassets */,
 				44B534711A3D6C060044F787 /* LaunchScreen.xib */,
+				44B5346F1A3D6C060044F787 /* Images.xcassets */,
 				44B534621A3D6C060044F787 /* Supporting Files */,
 			);
 			path = ViewControllerSwitchDemo;
@@ -117,6 +142,45 @@
 				44B5347D1A3D6C060044F787 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44B539BF1A3E74BF0044F787 /* modal */ = {
+			isa = PBXGroup;
+			children = (
+				44B534691A3D6C060044F787 /* ViewController.h */,
+				44B5346A1A3D6C060044F787 /* ViewController.m */,
+				44B539C01A3E75D80044F787 /* ModalViewController.h */,
+				44B539C11A3E75D80044F787 /* ModalViewController.m */,
+				44B539C31A3E7D450044F787 /* ModalTransitionAnimation.h */,
+				44B539C41A3E7D450044F787 /* ModalTransitionAnimation.m */,
+				44B539C61A3E872C0044F787 /* ModalInterActiveTransitionAnimation.h */,
+				44B539C71A3E872C0044F787 /* ModalInterActiveTransitionAnimation.m */,
+				4449E57F1A4004F30019BD92 /* ModalMoveTransitionAnimation.h */,
+				4449E5801A4004F30019BD92 /* ModalMoveTransitionAnimation.m */,
+			);
+			name = modal;
+			sourceTree = "<group>";
+		};
+		44B539C91A3E9EF60044F787 /* navigation */ = {
+			isa = PBXGroup;
+			children = (
+				44B539CA1A3E9F990044F787 /* NavigationTransitionAnimation.h */,
+				44B539CB1A3E9F990044F787 /* NavigationTransitionAnimation.m */,
+				44B539CD1A3EA4140044F787 /* NavigationControllerDelegate.h */,
+				44B539CE1A3EA4140044F787 /* NavigationControllerDelegate.m */,
+			);
+			name = navigation;
+			sourceTree = "<group>";
+		};
+		44B539D31A3EACAE0044F787 /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				44B539D41A3EACE90044F787 /* TabbarTransitionAnimation.h */,
+				44B539D51A3EACE90044F787 /* TabbarTransitionAnimation.m */,
+				44B539D71A3EAD3D0044F787 /* TabbarControllerDelegate.h */,
+				44B539D81A3EAD3D0044F787 /* TabbarControllerDelegate.m */,
+			);
+			name = tabbar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +283,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44B539D91A3EAD3D0044F787 /* TabbarControllerDelegate.m in Sources */,
+				44B539D61A3EACE90044F787 /* TabbarTransitionAnimation.m in Sources */,
+				44B539CF1A3EA4140044F787 /* NavigationControllerDelegate.m in Sources */,
+				44B539CC1A3E9F990044F787 /* NavigationTransitionAnimation.m in Sources */,
+				4449E5811A4004F30019BD92 /* ModalMoveTransitionAnimation.m in Sources */,
+				44B539C81A3E872C0044F787 /* ModalInterActiveTransitionAnimation.m in Sources */,
+				44B539C21A3E75D80044F787 /* ModalViewController.m in Sources */,
+				44B539C51A3E7D450044F787 /* ModalTransitionAnimation.m in Sources */,
 				44B5346B1A3D6C060044F787 /* ViewController.m in Sources */,
 				44B534681A3D6C060044F787 /* AppDelegate.m in Sources */,
 				44B534651A3D6C060044F787 /* main.m in Sources */,
@@ -412,6 +484,7 @@
 				44B534841A3D6C060044F787 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44B534851A3D6C060044F787 /* Build configuration list for PBXNativeTarget "ViewControllerSwitchDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +493,7 @@
 				44B534871A3D6C060044F787 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
