@@ -53,7 +53,7 @@
         [toVC.view.layer setAnchorPoint:CGPointMake(0.5f, 0.5f)];
         [container setTransform:CGAffineTransformIdentity];
         
-        [transitionContext completeTransition:![transitionContext transitionWasCancelled]];
+        [transitionContext completeTransition:YES];
     }];
     
     

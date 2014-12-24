@@ -26,6 +26,8 @@
     self.interactionController = [[UIPercentDrivenInteractiveTransition alloc] init];
     
     [self.navigationController.view addGestureRecognizer:[[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handleGesture:)]];
+    
+
 }
 
 -(void)handleGesture:(UIPanGestureRecognizer *)gesture {

@@ -20,13 +20,14 @@
 - (void)wireToViewController:(UIViewController*)viewController{
     _presentingVC = viewController;
     
+    //添加手势
     UIPanGestureRecognizer *gesture = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handleGesture:)];
     [viewController.view addGestureRecognizer:gesture];
 }
 
 -(CGFloat)completionSpeed
 {
-    return 1 - self.percentComplete; 
+    return 1 - self.percentComplete;
 }
 
 -(void)handleGesture:(UIPanGestureRecognizer *)gestureRecognizer {

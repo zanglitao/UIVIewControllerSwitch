@@ -9,8 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "ModalViewController.h"
 
+//如果需要使用自定义动画，视图需要实现UIViewControllerTransitioningDelegate协议
 @interface ViewController : UIViewController<ModalViewControllerDelegate,UIViewControllerTransitioningDelegate>
-
 
 @end
 

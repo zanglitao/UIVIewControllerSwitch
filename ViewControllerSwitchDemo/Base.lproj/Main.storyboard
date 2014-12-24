@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="du6-Ni-6BI">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
@@ -20,7 +20,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-52.5" y="204"/>
+            <point key="canvasLocation" x="-376" y="204"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="omu-9d-BTP">
@@ -31,18 +31,18 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <outlet property="delegate" destination="6Vx-QY-XRA" id="Gnh-em-UaB"/>
+                        <outlet property="delegate" destination="FFZ-Gv-kPn" id="KYn-t9-nJD"/>
                         <segue destination="gSt-ZN-I96" kind="relationship" relationship="rootViewController" id="vSQ-Gc-x35"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qcj-Ff-4bk" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <customObject id="6Vx-QY-XRA" customClass="NavigationControllerDelegate">
+                <customObject id="FFZ-Gv-kPn" customClass="NavigationControllerDelegate">
                     <connections>
-                        <outlet property="navigationController" destination="du6-Ni-6BI" id="jT8-6a-L4q"/>
+                        <outlet property="navigationController" destination="du6-Ni-6BI" id="t01-xd-EJk"/>
                     </connections>
                 </customObject>
             </objects>
-            <point key="canvasLocation" x="849" y="204"/>
+            <point key="canvasLocation" x="802" y="204"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="2Y0-n3-wmi">
@@ -56,30 +56,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qKf-4V-s9C">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e1Z-xL-K0E">
+                                <rect key="frame" x="283" y="107" width="34" height="30"/>
                                 <state key="normal" title="push">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="177" y="113" width="34" height="30"/>
-                                </variation>
                                 <connections>
-                                    <segue destination="oOW-qQ-kdd" kind="push" id="wAS-oV-cUa"/>
+                                    <segue destination="oOW-qQ-kdd" kind="show" id="DQ1-Ye-zvG"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="qKf-4V-s9C"/>
-                            </mask>
-                        </variation>
-                        <variation key="widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="qKf-4V-s9C"/>
-                            </mask>
-                        </variation>
+                        <constraints>
+                            <constraint firstItem="e1Z-xL-K0E" firstAttribute="top" secondItem="DfV-kQ-AWN" secondAttribute="bottom" constant="43" id="k05-rC-quC"/>
+                            <constraint firstAttribute="centerX" secondItem="e1Z-xL-K0E" secondAttribute="centerX" id="mmf-LE-DcW"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="wWO-3T-6Gj"/>
                 </viewController>
